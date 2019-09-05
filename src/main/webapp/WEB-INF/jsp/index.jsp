@@ -25,7 +25,9 @@
 
 	<div role="navigation">
 		<div class="navbar navbar-inverse">
-			<a href="/" class="navbar-brand">Bootsample</a>
+			<a href="/" class="navbar-brand">Home</a>
+			<a href="https://argenisosorio.github.io/bootstrap-4-examples/"
+				class="navbar-brand"  target="_blank">Bootstrap Reference</a>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="new-task">New Task</a></li>
@@ -34,7 +36,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<c:choose>
 		<c:when test="${mode == 'MODE_HOME'}">
 			<div class="container" id="homeDiv">
